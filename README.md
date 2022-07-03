@@ -1,2 +1,2 @@
-# Javascript, HTML, CSS 👾
+# Web Introduction 👾
 
