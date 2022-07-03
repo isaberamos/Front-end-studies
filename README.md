@@ -1,2 +1,2 @@
-# Javascript
+# Javascript 👾
  Estudos com Javascript
