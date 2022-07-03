@@ -7,7 +7,7 @@
     <title>Meu primeiro programa</title>
     <style>
         body {
-            background-color:rgb(214, 197, 230);
+            background-color:rgb(214, 197, 230); /* Comentário */
             color:azure;
             font: normal 15pt Arial;
         }
@@ -17,12 +17,13 @@
     </style>
 </head>
 <body>
-    <h1>Olá, mundooooo!</h1>
+    <h1>Olá, mundooooo!</h1> <!-- Comentário -->
     <p>Acabei com a maldição</p>
     <script>
-        window.alert("Observe a mensagem!")
-        window.confirm("Está curtindo JS?")   
-        window.prompt("Me fale seu nome :)")
+        var n1 = Number.parseInt(window.prompt('Digite o primeiro número: ')) // Pode converter para inteiro,
+        var n2 = Number(window.prompt('Digite o segundo número: '))           // ou então só digitar 'Number'
+        var soma = n1 + n2
+        window.alert('A soma dos valores é ' + soma)                     // Para converter para String usa .toStrig()
     </script>
 </body>
 </html>
